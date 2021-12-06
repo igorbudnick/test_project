@@ -10,8 +10,6 @@ dependencies {
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '2.23.0'
     implementation group: 'com.codeborne', name: 'selenide', version: '5.2.3'
-}
-
-test {
-    useJUnitPlatform()
+    implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.32'
+    testImplementation group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.32'
 }
